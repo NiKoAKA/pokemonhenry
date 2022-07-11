@@ -1,22 +1,30 @@
-import React from "react"
-import './App.css';
-import {Route} from 'react-router-dom'
-import LandingPage from "./components/LandingPage";
-import Home from "./components/Home";
-import Detail from './components/Details';
-import Create from './components/Create';
+import React from 'react';
+import { Routes, Route } from "react-router-dom";
+// import Nav from './components/nav.jsx';
+import Home from './components/home.jsx';
+import Detail from './components/detail.jsx';
+import Create from './components/create';
+import Landing from './components/landing';
+import PageNotFound from './components/notFound.jsx';
+var app = require('./App.css');
+
 
 function App() {
-  return (
-      <div className="App">
-        {/* <h1>Henry Pokemon</h1> */}
-        <Route exact path='/' component={LandingPage} />
-        <Route path='/home' component={Home}/>
-        <Route path='/details/:id' component={Detail}/>
-        <Route path='/create' component={Create}/>
-      </div>
-   
-  );
-}
+    return (
+        <div className={app.App}>
+            {/* <Nav /> */}
+            <div>
+                <Routes>
+                    <Route path='/' element={<Landing />} />
+                    <Route path='home/detail/:id' element={ <Detail />} />
+                    <Route path='home/detail' element={<Detail />}/>
+                    <Route path='home' element={<Home />} />
+                    <Route path='create' element={<Create />} />
+                    <Route path='*' element={<PageNotFound />} />
+                </Routes>
+            </div>
+        </div>
+    );
+};
 
 export default App;

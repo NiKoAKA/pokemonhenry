@@ -1,0 +1,70 @@
+.esta {
+    position: relative;
+    background-image: url('../images/pokemon/maxresdefault.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40.8rem;
+    
+}
+
+.esta .estaButton1 {
+    position: absolute;
+    top: 15rem;
+    left: 3rem;
+    height: 15rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esta button {
+    font-family: pokeSolid;
+    font-size: 1.0rem;
+    text-shadow: 2px 2px 0 var(--blue), 2px -2px 0 var(--blue), -2px 2px 0 var(--blue), -2px -2px 0 var(--blue), 2px 0px 0 var(--blue), 0px 2px 0 var(--blue), -2px 0px 0 var(--blue), 0px -2px 0 var(--blue);
+    height: 6rem;
+    width: 10rem;
+    background-image: url('../images/ball-pokemon.gif');
+    background-position: center;
+    background-size: cover;
+    color: var(---blue);
+    color: aliceblue;
+    border-radius: 3rem;
+    letter-spacing: 2px;
+    margin-left: 60rem;
+    /* background-color: white; */
+    /* background-repeat: no-repeat; */
+    transition: all 1s;
+    /* border-radius: 15px 15px 15px 15px; */
+    /* border-radius: 20% 20% / 40% 40%; */
+    /* box-shadow: inset 0px 0px 10px 2px black; */
+}
+
+/* .esta button:hover {
+   
+} */
+ h6{
+    font-family: pokeSolid;
+    font-size: 3rem;
+    text-shadow: 2px 2px 0 var(--blue), 2px -2px 0 var(--blue), -2px 2px 0 var(--blue), -2px -2px 0 var(--blue), 2px 0px 0 var(--blue), 0px 2px 0 var(--blue), -2px 0px 0 var(--blue), 0px -2px 0 var(--blue);
+    
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 2rem;
+    /* margin-left: 40rem; */
+    margin-bottom: 2rem;
+    color: rgb(255, 255, 255);
+}
+p{
+    font-family: pokeSolid; ;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 0 var(--blue), 2px -2px 0 var(--blue), -2px 2px 0 var(--blue), -2px -2px 0 var(--blue), 2px 0px 0 var(--blue), 0px 2px 0 var(--blue), -2px 0px 0 var(--blue), 0px -2px 0 var(--blue);
+    
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 2rem;
+    /* margin-left: 40rem; */
+    margin-bottom: 2rem;
+    color: rgb(250, 250, 250);
+} 
