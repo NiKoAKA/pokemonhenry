@@ -28,6 +28,8 @@ const Home = ({ id, img, name, power, types, createInDB }) => {
                 <div className={card.containName}>
                     <p>{name}</p>
                 </div>
+
+
                 <div className={card.containDetail}>
                     <div className={card.containImg}>
                         <img src={img} alt="Img not found" />

@@ -73,8 +73,8 @@ const CardDetail = ({ state }) => {
                             <h5>Id:</h5>
                             <p>{state.id}</p>
                         </div>
-                        <div className={cardDetail.salir1}>
-                            <button className="btn btn-primary" onClick={handleClick}>Salir Home</button>
+                        <div className={cardDetail.salir}>
+                            <button className={cardDetail.salir2} onClick={handleClick}>Salir Home</button>
                         </div>
                     </div>
                 </div>

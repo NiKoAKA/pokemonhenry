@@ -162,8 +162,18 @@ h5, p {
     width: auto;
     height: 3rem;
 }
-.salir1{
-  color: blueviolet;
-  
-  
+.salir2 {
+    
+    background-image: url(../images/raios.gif);
+    
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 3;
+  color: rgb(255, 255, 255);
 }
+.salir2:hover {
+    background-image: url(../images/imagen.gif);
+    }
