@@ -13,9 +13,9 @@ const Landing = () => {
 
     return (
      <div className={landing.esta}>
-        <h6>Bienvenidos</h6>
+        <h6 className={landing.titlulo}>Bienvenidos</h6>
         <br />
-        <p>PI POKEMON Henry 2022</p>
+        <h3 >POKEMON Henry 2022</h3>
                 <div className={landing.estaButton1}>
                   <button onClick={handleClick}>Entrar</button>
                 </div>
